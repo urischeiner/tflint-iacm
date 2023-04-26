@@ -3,4 +3,5 @@ inputs:
   flags:
     description: Additional tflint flags
 run:
-  bash: plugin
+  bash:
+    path: plugin
