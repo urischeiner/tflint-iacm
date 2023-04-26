@@ -1,6 +1,6 @@
-name: tfsec
+name: tflint
 inputs:
   flags:
-    description: Additional tfsec flags
+    description: Additional tflint flags
 run:
-  sh: plugin.sh
+  bash: plugin
