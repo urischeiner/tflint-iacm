@@ -6,4 +6,6 @@ apt install -y unzip
 
 curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | sed 's/unzip -u/unzip -o/' | bash
 tflint --init
+echo 'running tflint'
 tflint --no-color ${PLUGIN_FLAGS}
+echo 'done with tflint'
